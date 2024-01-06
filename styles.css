@@ -1,0 +1,78 @@
+body {
+    padding-top: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url('img/back1.webp');  */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.home-h1 {
+    color: whitesmoke;
+}
+
+.travel-h1 {
+    color: wheat;
+}
+
+h1 {
+    color: #333;
+}
+
+h4 {
+    color: blue;
+}
+
+p {
+    color: #666;
+}
+
+.navbar {
+    background-color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+    text-align: left;
+}
+
+.navbar-nav a:hover {
+    color: #007bff; /* Change to your preferred hover color */
+}
+
+/* Adjust spacing between sections */
+.container:not(:first-child) {
+    margin-top: 80px; /* Adjust as needed */
+}
+
+/* Style images in the content */
+.img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Additional Styles */
+/* Adjust the color of collapsed navbar text on smaller screens */
+.navbar-dark .navbar-toggler-icon {
+    color: #fff;
+}
